@@ -8,7 +8,9 @@
                         <div class="full">
                             <div class="center-desk">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                    <div class="text-bg">
+                                        <h1>@yield('blog_title', 'Hoş Geldiniz')</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -23,13 +25,10 @@
                             <div class="collapse navbar-collapse" id="navbarsExample04">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#"> Home </a>
+                                        <a class="nav-link" href="{{ route('index') }}"> Ana Sayfa </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#contact">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                        <a class="nav-link" href="{{ route('about') }}">Hakkımda</a>
                                     </li>
                                 </ul>
                             </div>
@@ -38,28 +37,4 @@
                 </div>
             </div>
         </div>
-        <!-- end header inner -->
-        <!-- end header -->
-        <!-- banner -->
-        <section class="banner_main">
-            <div class="container">
-                <div class="row d_flex">
-                    <div class=" col-xl-8 col-lg-8 col-md-8 col-12-9">
-                        <div class="text-bg">
-                            <h1>Blog<br> <span class="white1">Landing Page 2019</span></h1>
-                            <p>It is a long established fact that a reader will be distracted by the readable
-                                content of a page when looking at its layout. The point of using Lorem Ipsum is that
-                                it has a more-or-less normal distribution of letters,</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-12-3">
-                        <div class="text-img">
-                            <figure><img src="images/box_img.png" alt="#" /></figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
 </header>
