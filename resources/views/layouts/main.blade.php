@@ -13,9 +13,6 @@
                 <div class="col-md-12">
                     <div class="our_two_box">
                         <div class="row d_flex">
-
-
-                            {{-- Burada bir foreach döngüsü olacak ve kaç makale varsa o kadar üretecek --}}
                             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                                 <div class="our_img">
                                     <figure><img src="images/our_img1.jpg" alt="#" /></figure>

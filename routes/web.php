@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('front.about');
 })->name('about');
+
+Route::get('/register', function () {
+    return view('admin.register');
+})->name('register');

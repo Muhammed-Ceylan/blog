@@ -30,6 +30,9 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="{{ route('about') }}">Hakkımda</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('register') }}">Giriş</a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
